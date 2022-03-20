@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 99%;
+  margin: 29px 8px;
+  background-color: #eee;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+#main p {
+  text-align: center;
+  margin: 16px 0px;
+  margin: 15px 0 5px 0;
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+}
+
+#img-div p {
+  margin-top: 19px;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  line-height: 1.6;
+  max-width: 550px;
+  margin-bottom: 50px auto;
+  text-align: left;
+}
+
+blockquote {
+  max-width: 550px;
+  margin: 10px auto 10px auto;
+}
+
+#tribute-link {
+  font-weight: bold;
+}
+
+a {
+  color: #477ca7;
+  text-decoration: underline;
+}
+
+#tribute-link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  ul {
+    max-width: 350px;
+  }
+
+  blockquote {
+    max-width: 350px;
+  }
+
+  #tribute-link:active {
+    cursor: pointer;
+  }
+}
